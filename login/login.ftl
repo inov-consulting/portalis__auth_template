@@ -7,7 +7,8 @@
 <#import "components/atoms/link.ftl" as link>
 <#import "components/molecules/identity-provider.ftl" as identityProvider>
 
-<@layout.registrationLayout displayInfo=social.displayInfo && realm.password && realm.registrationAllowed && !registrationDisabled??; section>
+<@layout.registrationLayout displayInfo=((social?? && social.displayInfo??)?then(social.displayInfo,false)) && realm.password && realm.registrationAllowed && !registrationDisabled??; section>
+
 
     <#if section = "title">
         ${msg("loginHeading",(realm.displayName!''))}
@@ -162,7 +163,7 @@
             </button>
 
             <!-- Session expiry notice -->
-            <p class="text-center text-xs mt-4" style="color:#9ca3af;">${msg("sessionExpireNotice")}</p>
+            <!-- <p class="text-center text-xs mt-4" style="color:#9ca3af;">${msg("sessionExpireNotice")}</p> -->
 
             <!-- Registration link -->
             <#if realm.password && realm.registrationAllowed && !usernameEditDisabled??>

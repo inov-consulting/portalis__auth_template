@@ -37,7 +37,7 @@
                 <meta name="${meta?split('==')[0]}" content="${meta?split('==')[1]}" />
             </#list>
         </#if>
-        <title><#nested "title"> - ${realm.displayName!'wenze'}</title>
+        <title><#nested "title"> - ${realm.displayName!'PortaLis'}</title>
 
         <link rel="shortcut icon" href="${url.resourcesPath}/images/favicon.png" type="image/png" />
 
@@ -85,10 +85,10 @@
                       </#if>
                   </div>
                   
-                  <!-- Header avec logo WENZE -->
+                  <!-- Header avec logo PortaLis -->
                   <div class="flex items-center justify-center gap-3 mt-2 md:mt-2">
                       <div class="flex items-center gap-4 md:gap-4 lg:gap-3">
-                          <img src="${url.resourcesPath}/images/logo.svg" class="logo w-38 md:w-32 lg:w-38 xl:w-40"/>
+                          <img src="${url.resourcesPath}/images/portalis/logo_portalis.png" class="logo w-38 md:w-32 lg:w-38 xl:w-40"/>
                       </div>
                   </div>
 
