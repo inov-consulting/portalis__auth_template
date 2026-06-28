@@ -174,11 +174,11 @@
             </#if>
 
             <!-- Social providers -->
-            <#if realm.password && social.providers??>
+            <!-- <#if realm.password && social.providers??>
                 <div class="mt-4 text-sm text-gray-500">
                     <@identityProvider.kw providers=social.providers />
                 </div>
-            </#if>
+            </#if> -->
         </form>
 
         <script>

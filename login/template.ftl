@@ -75,6 +75,57 @@
       <div class="h-screen mx-auto w-full">
           <div class="mx-0 md:mx-auto flex lg:justify-center gap-0 flex-col lg:flex-row max-[770px] h-screen font-display">
               <!-- Section gauche - Formulaire -->
+              <div class="hidden lg:flex lg:w-[40%] xl:w-[34%] flex-col justify-between p-8 lg:p-10 xl:p-12 relative overflow-hidden xl:m-3 xl:rounded-xl"
+                style="background: linear-gradient(160deg, #1B6B45 0%, #166239 50%, #8B6914 100%);">
+
+                <!-- Decorative background glows -->
+                <div class="absolute top-16 right-8 w-56 lg:w-72 h-56 lg:h-72 rounded-full pointer-events-none"
+                    style="background: radial-gradient(circle, rgba(3, 35, 19, 0.15), transparent);"></div>
+                <div class="absolute bottom-20 left-4 w-80 lg:w-96 h-80 lg:h-96 rounded-full pointer-events-none"
+                    style="background: radial-gradient(circle, rgba(3, 35, 19, 0.15), transparent);"></div>
+
+                <!-- Logo -->
+                <div class="relative z-10">
+                    <div class="inline-block rounded-xl px-2 py-1 bg-white border border-gray-200">
+                        <img src="${url.resourcesPath}/images/portalis/logo_portalis.png" alt="PortaLis" class="h-16 lg:h-20 w-auto" />
+                    </div>
+                </div>
+
+                <!-- Main headline + features -->
+                <div class="relative z-10 flex-1 flex flex-col justify-center py-5">
+                    <h1 class="text-white font-bold text-3xl lg:text-4xl xl:text-[2.4rem] leading-tight mb-4">
+                        Pilotez votre activité transport en temps réel
+                    </h1>
+                    <p class="text-orange-300 text-sm lg:text-base mb-8 lg:mb-10" style="opacity: 0.75;">
+                        Agents IA · Multi-entités · Sénégal &amp; Côte d'Ivoire
+                    </p>
+
+                    <div class="flex flex-col gap-2.5 lg:gap-3">
+                        <div class="flex items-center gap-2 lg:gap-2.5 w-fit rounded-full px-3 lg:px-4 py-1.5 lg:py-2 text-white text-xs lg:text-sm"
+                            style="border: 1px solid rgba(147, 253, 156, 0.25); background: rgba(255,255,255,0.05);">
+                            <span class="text-green-300 text-xs">✦</span>
+                            Pipeline commercial tracé
+                        </div>
+                        <div class="flex items-center gap-2 lg:gap-2.5 w-fit rounded-full px-3 lg:px-4 py-1.5 lg:py-2 text-white text-xs lg:text-sm"
+                            style="border: 1px solid rgba(147, 253, 156, 0.25); background: rgba(255,255,255,0.05);">
+                            <span class="text-green-300 text-xs">✦</span>
+                            Dossiers transport en temps réel
+                        </div>
+                        <div class="flex items-center gap-2 lg:gap-2.5 w-fit rounded-full px-3 lg:px-4 py-1.5 lg:py-2 text-white text-xs lg:text-sm"
+                            style="border: 1px solid rgba(147, 253, 156, 0.25); background: rgba(255,255,255,0.05);">
+                            <span class="text-green-300 text-xs">✦</span>
+                            Agent DAF IA supervisé
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Footer -->
+                <div class="relative z-10 text-[10px] lg:text-xs" style="color: rgba(245, 246, 244, 0.35);">
+                    © 2026 PortaLis · INOV Consulting
+                </div>
+            </div>
+
+              <!-- Section droite - Image de fond -->
               <div class="w-full h-full lg:w-6/12 bg-white py-5 lg:px-[100px]  lg:px-[180px] sm:px-[80px] md:px-[100px] px-[50px] content-center">
                   <!-- Navigation et langue en haut -->
                   <div class="flex items-end justify-between gap-3 mt-2 md:mt-2">
@@ -87,19 +138,13 @@
                   
                   <!-- Header avec logo PortaLis -->
                   <div class="flex items-center justify-center gap-3 mt-2 md:mt-2">
-                      <div class="flex items-center gap-4 md:gap-4 lg:gap-3">
+                      <div class="lg:hidden flex items-center gap-4 md:gap-4 lg:gap-3">
                           <img src="${url.resourcesPath}/images/portalis/logo_portalis.png" class="logo w-38 md:w-32 lg:w-38 xl:w-40"/>
                       </div>
                   </div>
 
                   <!-- Contenu du formulaire -->
                   <#nested "form">
-              </div>
-
-              <!-- Section droite - Image de fond -->
-              <div class="w-full lg:w-6/12 bg-white text-gray-600 flex flex-col justify-center items-center relative">
-                  <div class="relative min-h-[50px] md:min-h-[400px] lg:min-h-[400px] w-full h-full flex items-center justify-center bg-[#A8C4B2] bg-[url('${url.resourcesPath}/images/login_locker.png')] bg-cover bg-center">
-                  </div>
               </div>
           </div>
       </div>
