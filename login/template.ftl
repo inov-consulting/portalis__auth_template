@@ -39,7 +39,7 @@
         </#if>
         <title><#nested "title"> - ${realm.displayName!'PortaLis'}</title>
 
-        <link rel="shortcut icon" href="${url.resourcesPath}/images/favicon.png" type="image/png" />
+        <link rel="shortcut icon" href="${url.resourcesPath}/images/favicon.ico" type="image/png" />
 
         <link rel="apple-touch-icon-precomposed" sizes="152x152"
               href="${url.resourcesPath}/images/logotype/apple-touch-icon-ipad-retina-152x152.png?.0.1.0">
