@@ -37,7 +37,7 @@
                 <meta name="${meta?split('==')[0]}" content="${meta?split('==')[1]}" />
             </#list>
         </#if>
-        <title><#nested "title"> - ${realm.displayName!'PortaLis'}</title>
+        <title><#nested "title"> - ${realm.displayName!'Altus'}</title>
 
         <link rel="shortcut icon" href="${url.resourcesPath}/images/favicon.ico" type="image/png" />
 
@@ -87,7 +87,7 @@
                 <!-- Logo -->
                 <div class="relative z-10">
                     <div class="inline-block rounded-xl px-2 py-1 bg-white border border-gray-200">
-                        <img src="${url.resourcesPath}/images/portalis/logo_portalis.png" alt="PortaLis" class="h-16 lg:h-20 w-auto" />
+                        <img src="${url.resourcesPath}/images/portalis/logo_portalis.png" alt="Altus" class="h-16 lg:h-20 w-auto" />
                     </div>
                 </div>
 
@@ -121,7 +121,7 @@
 
                 <!-- Footer -->
                 <div class="relative z-10 text-[10px] lg:text-xs" style="color: rgba(245, 246, 244, 0.35);">
-                    © 2026 PortaLis · INOV Consulting
+                    © 2026 Altus · INOV Consulting
                 </div>
             </div>
 
@@ -136,7 +136,7 @@
                       </#if>
                   </div>
                   
-                  <!-- Header avec logo PortaLis -->
+                  <!-- Header avec logo Altus -->
                   <div class="flex items-center justify-center gap-3 mt-2 md:mt-2">
                       <div class="lg:hidden flex items-center gap-4 md:gap-4 lg:gap-3">
                           <img src="${url.resourcesPath}/images/portalis/logo_portalis.png" class="logo w-38 md:w-32 lg:w-38 xl:w-40"/>

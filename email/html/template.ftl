@@ -23,11 +23,11 @@
             <table role="presentation" cellpadding="0" cellspacing="0" border="0">
               <tr>
                 <td style="vertical-align:middle;">
-                  <img src="${url.resourcesPath}/images/portalis/Logo.png" alt="PortaLis" style="height:40px;width:auto;display:block;border:0;" />
+                  <img src="${url.resourcesPath}/images/portalis/Logo.png" alt="Altus" style="height:40px;width:auto;display:block;border:0;" />
                 </td>
                 <td style="vertical-align:middle;">
                   <p style="margin:0;font-size:15px;font-family:Playfair Display;line-height:1.2;">
-                      <strong style="color:#1B5E20;font-family:'Playfair Display';font-size:22px;font-style:normal;font-weight:700;line-height:33px;letter-spacing:-0.44px;">PortaLis</strong><span style="color:#F9A825;font-family:Inter;font-size:13px;font-style:normal;font-weight:600;line-height:19.5px;margin-left:4px;">Sénégal</span>
+                      <strong style="color:#1B5E20;font-family:'Playfair Display';font-size:22px;font-style:normal;font-weight:700;line-height:33px;letter-spacing:-0.44px;">Altus</strong><span style="color:#F9A825;font-family:Inter;font-size:13px;font-style:normal;font-weight:600;line-height:19.5px;margin-left:4px;">Sénégal</span>
                   </p>
                   <p style="margin:2px 0 0;font-size:9px;color:#9CA3AF;text-transform:uppercase;letter-spacing:0.08em;font-family:Arial,Helvetica,sans-serif;">${category}</p>
                 </td>
@@ -42,7 +42,7 @@
         <!-- Footer -->
         <tr>
           <td style="background-color:#1B5E20;padding:20px 32px;text-align:center;">
-            <p style="margin:0 0 4px;color:#ffffff;font-size:13px;font-weight:700;font-family:Arial,Helvetica,sans-serif;">PortaLis Sénégal</p>
+            <p style="margin:0 0 4px;color:#ffffff;font-size:13px;font-weight:700;font-family:Arial,Helvetica,sans-serif;">Altus Sénégal</p>
             <p style="margin:0 0 10px;color:rgba(255,255,255,0.65);font-size:11px;font-family:Arial,Helvetica,sans-serif;">Transport &amp; Logistique · Afrique de l'Ouest</p>
             <p style="margin:0;font-size:11px;font-family:Arial,Helvetica,sans-serif;">
               <a href="#" style="color:rgba(255,255,255,0.6);text-decoration:underline;">Se désabonner</a>

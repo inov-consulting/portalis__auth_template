@@ -13,7 +13,7 @@
     <td style="padding:32px 32px 28px;font-family:Arial,Helvetica,sans-serif;">
 
       <p style="margin:0 0 12px;font-size:22px;font-weight:700;color:#1A1A1A;">Bonjour ${user.firstName!''},</p>
-      <p style="margin:0 0 24px;font-size:14px;color:#555555;line-height:1.6;">Votre mot de passe PortaLis Sénégal a été modifié avec succès. Cette modification a été effectuée depuis votre espace paramètres.</p>
+      <p style="margin:0 0 24px;font-size:14px;color:#555555;line-height:1.6;">Votre mot de passe Altus Sénégal a été modifié avec succès. Cette modification a été effectuée depuis votre espace paramètres.</p>
 
       <!-- Info table -->
       <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#F5F5F0;border-radius:8px;margin:0 0 20px;overflow:hidden;">
@@ -49,7 +49,7 @@
       </table>
 
       <p style="margin:0 0 4px;font-size:13px;color:#555555;font-family:Arial,sans-serif;">Cordialement,</p>
-      <p style="margin:0;font-size:13px;font-weight:700;color:#1A1A1A;font-family:Arial,sans-serif;">L'équipe PortaLis Sénégal</p>
+      <p style="margin:0;font-size:13px;font-weight:700;color:#1A1A1A;font-family:Arial,sans-serif;">L'équipe Altus Sénégal</p>
     </td>
   </tr>
 
