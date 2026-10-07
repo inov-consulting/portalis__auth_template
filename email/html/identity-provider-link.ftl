@@ -13,7 +13,7 @@
     <td style="padding:32px 32px 28px;font-family:Arial,Helvetica,sans-serif;">
 
       <p style="margin:0 0 12px;font-size:22px;font-weight:700;color:#1A1A1A;">Bonjour ${user.firstName!''},</p>
-      <p style="margin:0 0 24px;font-size:14px;color:#555555;line-height:1.6;">Un fournisseur d'identité externe a été lié avec succès à votre compte Altus Sénégal. Vous pouvez désormais vous connecter en utilisant ce fournisseur.</p>
+      <p style="margin:0 0 24px;font-size:14px;color:#555555;line-height:1.6;">Un fournisseur d'identité externe a été lié avec succès à votre compte PortaLis Sénégal. Vous pouvez désormais vous connecter en utilisant ce fournisseur.</p>
 
       <!-- Info table -->
       <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#F5F5F0;border-radius:8px;margin:0 0 20px;overflow:hidden;">
@@ -55,7 +55,7 @@
       <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin:0 0 12px;">
         <tr>
           <td style="background-color:#F0F9F4;border-left:3px solid #1B6B45;border-radius:0 6px 6px 0;padding:12px 16px;">
-            <p style="margin:0;font-size:13px;color:#166534;line-height:1.5;font-family:Arial,sans-serif;">Vous pouvez vous connecter à Altus Sénégal avec votre compte ${identityProviderAlias!''} sans saisir votre mot de passe manuellement.</p>
+            <p style="margin:0;font-size:13px;color:#166534;line-height:1.5;font-family:Arial,sans-serif;">Vous pouvez vous connecter à PortaLis Sénégal avec votre compte ${identityProviderAlias!''} sans saisir votre mot de passe manuellement.</p>
           </td>
         </tr>
       </table>
@@ -79,7 +79,7 @@
       </table>
 
       <p style="margin:0 0 4px;font-size:13px;color:#555555;font-family:Arial,sans-serif;">Cordialement,</p>
-      <p style="margin:0;font-size:13px;font-weight:700;color:#1A1A1A;font-family:Arial,sans-serif;">L'équipe Altus Sénégal</p>
+      <p style="margin:0;font-size:13px;font-weight:700;color:#1A1A1A;font-family:Arial,sans-serif;">L'équipe PortaLis Sénégal</p>
     </td>
   </tr>
 

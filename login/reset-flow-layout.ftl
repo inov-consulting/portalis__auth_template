@@ -22,7 +22,7 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="robots" content="noindex, nofollow">
-    <title>${realm.displayName!"Altus"} · ${msg("forgotPasswordTitle")}</title>
+    <title>${realm.displayName!"PortaLis"} · ${msg("forgotPasswordTitle")}</title>
     <link rel="shortcut icon" href="${url.resourcesPath}/images/favicon.ico" type="image/png" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -51,7 +51,7 @@
                     
           <div class="left-inner">
             <div class="logo-wrap">
-              <img src="${url.resourcesPath}/images/portalis/logo_portalis.png" alt="Altus" class="h-16 lg:h-20 w-auto" />
+              <img src="${url.resourcesPath}/images/portalis/logo_portalis.png" alt="PortaLis" class="h-16 lg:h-20 w-auto" />
             </div>
 
             <div class="left-body">
@@ -120,7 +120,7 @@
                 </#if>
               </div>
               <div class="relative z-10 text-[10px] lg:text-xs" style="color: rgba(245, 246, 244, 0.35);">
-                © 2026 Altus · INOV Consulting
+                © 2026 PortaLis · INOV Consulting
               </div>
             </div>
           </div>
@@ -130,7 +130,7 @@
         <div class="right w-full lg:w-[60%] xl:w-[66%]">
           <!-- Logo visible uniquement en mobile, au-dessus du formulaire -->
           <div class="lg:hidden text-center mb-8">
-            <img src="${url.resourcesPath}/images/portalis/logo_portalis.png" alt="Altus" class="h-20 w-auto mx-auto mb-1" />
+            <img src="${url.resourcesPath}/images/portalis/logo_portalis.png" alt="PortaLis" class="h-20 w-auto mx-auto mb-1" />
             <p class="text-gray-700 font-medium text-base mt-3">Pilotez votre activité transport</p>
           </div>
           

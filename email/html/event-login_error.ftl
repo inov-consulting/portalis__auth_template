@@ -13,7 +13,7 @@
     <td style="padding:32px 32px 28px;font-family:Arial,Helvetica,sans-serif;">
 
       <p style="margin:0 0 12px;font-size:22px;font-weight:700;color:#1A1A1A;">Bonjour ${user.firstName!''},</p>
-      <p style="margin:0 0 24px;font-size:14px;color:#555555;line-height:1.6;">Nous avons détecté plusieurs tentatives de connexion échouées sur votre compte Altus Sénégal. Si vous êtes à l'origine de ces tentatives, vous pouvez ignorer cet email.</p>
+      <p style="margin:0 0 24px;font-size:14px;color:#555555;line-height:1.6;">Nous avons détecté plusieurs tentatives de connexion échouées sur votre compte PortaLis Sénégal. Si vous êtes à l'origine de ces tentatives, vous pouvez ignorer cet email.</p>
 
       <!-- Info table -->
       <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#F5F5F0;border-radius:8px;margin:0 0 20px;overflow:hidden;">
@@ -48,10 +48,10 @@
         </tr>
       </table>
 
-      <p style="margin:0 0 24px;font-size:12px;color:#9CA3AF;text-align:center;font-style:italic;font-family:Arial,sans-serif;">Si vous pensez que votre compte a été compromis, contactez immédiatement votre administrateur Altus.</p>
+      <p style="margin:0 0 24px;font-size:12px;color:#9CA3AF;text-align:center;font-style:italic;font-family:Arial,sans-serif;">Si vous pensez que votre compte a été compromis, contactez immédiatement votre administrateur PortaLis.</p>
 
       <p style="margin:0 0 4px;font-size:13px;color:#555555;font-family:Arial,sans-serif;">Cordialement,</p>
-      <p style="margin:0;font-size:13px;font-weight:700;color:#1A1A1A;font-family:Arial,sans-serif;">L'équipe Altus Sénégal</p>
+      <p style="margin:0;font-size:13px;font-weight:700;color:#1A1A1A;font-family:Arial,sans-serif;">L'équipe PortaLis Sénégal</p>
     </td>
   </tr>
 
